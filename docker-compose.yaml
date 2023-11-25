@@ -1,7 +1,7 @@
 version: "3.9"
 services:
-  mosquitto:
-    build: .
+  mqtt:
+    image: eclipse-mosquitto
     ports:
       - 1883:1883
     volumes:
