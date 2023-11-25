@@ -1,2 +1,2 @@
-FROM ubuntu:latest
+FROM eclipse-mosquitto:latest
 COPY . .
