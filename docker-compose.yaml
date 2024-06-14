@@ -8,6 +8,7 @@ services:
       - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
     networks:
       - sakura-external
+    restart: always
 
 networks:
   sakura-external:
